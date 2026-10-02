@@ -14,6 +14,25 @@ package part03;
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
 
+// Declares a public class named Swap
 public class Swap {
-
+    // Defines the main method, which is the entry point of the program
+    public static void main(String[] args){
+        // Declares and initializes a String variable named x with the value "Sand"
+        String x = "Sand";
+        // Declares and initializes a String variable named y with the value "Mud"
+        String y = "Mud";
+        // Declares a temporary String variable named temp
+        String temp;
+        // Assigns the value of x to temp so it can be saved during the swap
+        temp = x;
+        // Assigns the value of y to x
+        x=y;
+        // Assigns the saved value in temp to y, completing the swap
+        y=temp;
+        // Prints the new value of x to the console
+        System.out.println("x: "+x);
+        // Prints the new value of y to the console
+        System.out.println("y: "+y);
+    }
 }
