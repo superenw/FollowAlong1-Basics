@@ -24,6 +24,7 @@ public class Main {
         System.out.print("I also love the 76ers\n");
         // Calls the println() method and uses escape sequences to print quotation marks around "Go Sixers!"
         System.out.println("\"Go Sixers!\"");
+
     }
 
 }
