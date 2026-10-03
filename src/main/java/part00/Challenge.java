@@ -10,10 +10,11 @@ package part00;
 // Your job: change the one line marked YOUR CODE so the test goes green.
 
 public class Challenge {
-
     // greeting("Jordan") should return "Hello, Jordan!"
     // greeting("Sam")    should return "Hello, Sam!"
+
     public static String greeting(String name) {
-        return "";   // YOUR CODE — replace "" with the right answer
+        return "Hello, " + name + "!";
     }
+
 }
