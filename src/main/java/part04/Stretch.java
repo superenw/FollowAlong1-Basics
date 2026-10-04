@@ -1,6 +1,6 @@
 package part04;
 
-// Video: https://www.youtube.com/watch?v=xk4_1vDrzzo&t=2915s
+// Video: [https://www.youtube.com/watch?v=xk4_1vDrzzo&t=2915s](https://www.youtube.com/watch?v=xk4_1vDrzzo&t=2915s)
 //        rewatch 48:35–52:25 for + - * / % ++ -- and casting
 // Guide: GUIDE.md in this folder, steps 1–6
 //
@@ -9,5 +9,28 @@ package part04;
 // There is no main method here yet. Typing it is part of the stretch.
 
 public class Stretch {
+    public static void main(String[] args) {
 
+        /* MY GUESS:
+           2
+           2
+           2.5
+           11
+           9
+           3.5
+           6
+        */
+
+        int n = 10;
+        System.out.println(n / 4);
+        System.out.println(n % 4);
+        System.out.println(n / 4.0);
+        n++;
+        System.out.println(n);
+        n--;
+        n--;
+        System.out.println(n);
+        System.out.println((double) 7 / 2);
+        System.out.println(7 / 2 * 2);
+    }
 }
